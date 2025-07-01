@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.10.0",
+    "form-data": "^4.0.3",
+    "mongodb": "^6.17.0",
+    "puppeteer": "^24.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tmp": "^0.2.3"
+  },
+  "name": "getasin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

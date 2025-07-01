@@ -1,0 +1,384 @@
+[
+  {
+  "_id": {
+    "$oid": "650911fce9ab668127014c61"
+  },
+  "aliexpress_product_id": "4001291207493",
+  "product_link": "https://www.aliexpress.com/item/4001291207493.html",
+  "name": "Sexy Sleepwear plus size Lingerie Babydoll Mesh Body Stocking Temptation Intimate Catsuit Nightwear dress Strapless bikini W119",
+  "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p align=\"center\">&nbsp; <span style=\"font-family: sans-serif;\"><span style=\"font-size: 18.0px;\"><img src=\"http://ae01.alicdn.com/kf/Hbd82d2914b414d16a94432a6bf84c1a9J.jpg?width=640&amp;height=384&amp;hash=1024\"><br>\n<span style=\"font-family: comic sans ms;\"><span style=\"font-size: 18.0px;\"><span style=\"color: #e6b6e3;\">&nbsp;</span><span style=\"color: #e6b6e3;\">Condition: 100% brand new<br>\nColor: picture color</span><br>\n<span style=\"color: #ff0000;\"><span style=\"background-color: #ffff00;\">Size: one size&nbsp; S-XXL&nbsp;(Fabric is flexible)</span></span></span></span><br>\n<span style=\"font-family: comic sans ms;\"><span style=\"font-size: 18.0px;\"><span style=\"color: #da92d6;\">(this item only have one size,but,Fabric is flexible may adjust )</span></span></span><br>\n<span style=\"font-family: comic sans ms;\"><span style=\"font-size: 18.0px;\"><span style=\"color: #da92d6;\">Washing and maintenance Tips:<br>\nWater temperature below 40 degree hand wash the best do not rub hard , can not be </span><span style=\"color: #c75cc1;\">bleached and ironing ,Imitation leather material not ironed<br>\n&nbsp;Features:<br>\n(1)See-through body gives a sense of sex ; (2) Made of high-quality material, gentle</span> <span style=\"color: #742c70;\">to women's skin; (3) It can perfectly show your slender legs and sexy curves; (4)Sure to give your honey or husband a big pleasing surprise!</span></span></span> </span></span></p>\n\n<div>\n<p style=\"margin:0;display: block;width: 100%;\"><img src=\"https://ae03.alicdn.com/kf/H4d91cc3ce4c64f4789d36089551d7ccez.jpg\"><img src=\"https://ae03.alicdn.com/kf/Hf1043cd068084f3682d52b202175bc25Y.jpg\"><img src=\"https://ae03.alicdn.com/kf/H379b0156bc2a46f899c1101eb81413c1B.jpg\"><img src=\"https://ae03.alicdn.com/kf/H54bef3eb27f84bd7afb2bccd44b3b20an.jpg\"><img src=\"https://ae03.alicdn.com/kf/H6a8da46ca39245159c54a6c78bac631be.jpg\"><img src=\"https://ae03.alicdn.com/kf/H7b5bb51f858d4b1c997069c6e4e5dc0dh.jpg\"><img src=\"https://ae03.alicdn.com/kf/Hee8eb0a7794741ee9f56083a20b9cad14.jpg\"></p>\n</div>\n</div></div>\r\n",
+  "evaluation_count": 6,
+  "avg_evaluation_rating": 5,
+  "images": [
+    "https://ae01.alicdn.com/kf/Hdd43d5eca142447bbca18c12f11cca93F.jpg",
+    "https://ae01.alicdn.com/kf/H54bef3eb27f84bd7afb2bccd44b3b20an.jpg",
+    "https://ae01.alicdn.com/kf/Hee8eb0a7794741ee9f56083a20b9cad14.jpg",
+    "https://ae01.alicdn.com/kf/Ha9e94584e14e4d92bf0d589cfce011eeP.jpg",
+    "https://ae01.alicdn.com/kf/H43b69ae59bac41d5a12f24eda6566514D.jpg",
+    "https://ae01.alicdn.com/kf/H4d91cc3ce4c64f4789d36089551d7ccez.jpg"
+  ],
+  "price_range": [
+    4.66,
+    4.66
+  ],
+  "variants": [
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:173#blue",
+      "aliexpress_sku_id": "12000022823933432",
+      "source_quantity": 0,
+      "quantity": 0,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "Blue",
+          "sku_image": "https://ae01.alicdn.com/kf/Hee8eb0a7794741ee9f56083a20b9cad14.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "blue",
+          "property_value_id": 173,
+          "sku_property_id": 14,
+          "property_value_id_long": 173,
+          "sku_map": "14:173"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:175#Fluorescence green",
+      "aliexpress_sku_id": "12000022823933433",
+      "source_quantity": 11580,
+      "quantity": 11580,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "green",
+          "sku_image": "https://ae01.alicdn.com/kf/H6a8da46ca39245159c54a6c78bac631be.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "Fluorescence green",
+          "property_value_id": 175,
+          "sku_property_id": 14,
+          "property_value_id_long": 175,
+          "sku_map": "14:175"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:1052#Fluorescence pink",
+      "aliexpress_sku_id": "12000022823933434",
+      "source_quantity": 11551,
+      "quantity": 11551,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "Pink",
+          "sku_image": "https://ae01.alicdn.com/kf/Hf1043cd068084f3682d52b202175bc25Y.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "Fluorescence pink",
+          "property_value_id": 1052,
+          "sku_property_id": 14,
+          "property_value_id_long": 1052,
+          "sku_map": "14:1052"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:496#purple",
+      "aliexpress_sku_id": "12000022823933435",
+      "source_quantity": 0,
+      "quantity": 0,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "PURPLE",
+          "sku_image": "https://ae01.alicdn.com/kf/H379b0156bc2a46f899c1101eb81413c1B.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "purple",
+          "property_value_id": 496,
+          "sku_property_id": 14,
+          "property_value_id_long": 496,
+          "sku_map": "14:496"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:10#red",
+      "aliexpress_sku_id": "12000022823933436",
+      "source_quantity": 11786,
+      "quantity": 11786,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "Red",
+          "sku_image": "https://ae01.alicdn.com/kf/H7b5bb51f858d4b1c997069c6e4e5dc0dh.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "red",
+          "property_value_id": 10,
+          "sku_property_id": 14,
+          "property_value_id_long": 10,
+          "sku_map": "14:10"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:29#white",
+      "aliexpress_sku_id": "12000022823933437",
+      "source_quantity": 11759,
+      "quantity": 11759,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "WHITE",
+          "sku_image": "https://ae01.alicdn.com/kf/H2f1ffced1cec47fea75f665573ae5b47y.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "white",
+          "property_value_id": 29,
+          "sku_property_id": 14,
+          "property_value_id_long": 29,
+          "sku_map": "14:29"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    },
+    {
+      "aliexpress_options": "5:200003528#S-XXL flexible;14:193#black",
+      "aliexpress_sku_id": "12000022823933431",
+      "source_quantity": 10951,
+      "quantity": 10951,
+      "source_price_usd": "4.66",
+      "price_usd": "4.66",
+      "currency": "USD",
+      "sku_property": [
+        {
+          "sku_property_value": "black",
+          "sku_image": "https://ae01.alicdn.com/kf/H4d91cc3ce4c64f4789d36089551d7ccez.jpg",
+          "sku_property_name": "Color",
+          "property_value_definition_name": "black",
+          "property_value_id": 193,
+          "sku_property_id": 14,
+          "property_value_id_long": 193,
+          "sku_map": "14:193"
+        },
+        {
+          "sku_property_value": "One Size",
+          "sku_property_name": "Size",
+          "property_value_definition_name": "S-XXL flexible",
+          "property_value_id": 200003528,
+          "sku_property_id": 5,
+          "property_value_id_long": 200003528,
+          "sku_map": "5:200003528"
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": 5,
+      "name": "Size",
+      "values": [
+        {
+          "id": 200003528,
+          "value": "S-XXL flexible"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Color",
+      "values": [
+        {
+          "id": 193,
+          "value": "black",
+          "image": "https://ae04.alicdn.com/kf/H4d91cc3ce4c64f4789d36089551d7ccez.jpg"
+        },
+        {
+          "id": 173,
+          "value": "blue",
+          "image": "https://ae04.alicdn.com/kf/Hee8eb0a7794741ee9f56083a20b9cad14.jpg"
+        },
+        {
+          "id": 175,
+          "value": "Fluorescence green",
+          "image": "https://ae04.alicdn.com/kf/H6a8da46ca39245159c54a6c78bac631be.jpg"
+        },
+        {
+          "id": 1052,
+          "value": "Fluorescence pink",
+          "image": "https://ae04.alicdn.com/kf/Hf1043cd068084f3682d52b202175bc25Y.jpg"
+        },
+        {
+          "id": 496,
+          "value": "purple",
+          "image": "https://ae04.alicdn.com/kf/H379b0156bc2a46f899c1101eb81413c1B.jpg"
+        },
+        {
+          "id": 10,
+          "value": "red",
+          "image": "https://ae04.alicdn.com/kf/H7b5bb51f858d4b1c997069c6e4e5dc0dh.jpg"
+        },
+        {
+          "id": 29,
+          "value": "white",
+          "image": "https://ae04.alicdn.com/kf/H2f1ffced1cec47fea75f665573ae5b47y.jpg"
+        }
+      ]
+    }
+  ],
+  "store_info": {
+    "store_id": "2438009",
+    "shipping_speed_rating": "4.5",
+    "communication_rating": "4.9",
+    "store_name": "eve*temptation Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.9"
+  },
+  "imported": false,
+  "lastest_volume": 27,
+  "created_at": "2022-11-11T17:51:34.205000Z",
+  "updated_at": {
+    "$date": "2025-06-30T03:01:41.407Z"
+  },
+  "source_product_id": "4001291207493",
+  "source_category_id": "200000740",
+  "source_category_ids": [
+    "200001800",
+    "200000740"
+  ],
+  "video_url": null,
+  "shipping_default": [],
+  "sync_with_es_flag": true,
+  "most_relevant": 26,
+  "source_category_id_search": "200000740",
+  "source_category_ids_search": [
+    "200001800",
+    "200000740"
+  ],
+  "source_product_id_search": "4001291207493",
+  "sku_mapped": {},
+  "crawl_category_id": "200001800",
+  "source_category_name": "Novelty & Special Use > Exotic Apparel",
+  "source_created_at": {
+    "$date": "2020-07-29T18:19:35.000Z"
+  },
+  "source_modified_at": {
+    "$date": "2025-04-25T05:10:46.000Z"
+  },
+  "collection_path": [],
+  "embedded": true,
+  "fetch_detail": true,
+  "filter_duplicated": false,
+  "item_specifics": [
+    {
+      "blockTitle": "Item Specifics",
+      "blockContent": [
+        {
+          "name": "Brand Name",
+          "value": "UDCCQ"
+        },
+        {
+          "name": "Sexually Suggestive",
+          "value": "Yes"
+        },
+        {
+          "name": "Material",
+          "value": "POLYESTER"
+        },
+        {
+          "name": "Origin",
+          "value": "Mainland China"
+        },
+        {
+          "name": "CN",
+          "value": "Guangdong"
+        },
+        {
+          "name": "Obscene Picture",
+          "value": "Yes"
+        },
+        {
+          "name": "Gender",
+          "value": "Women"
+        },
+        {
+          "name": "Fabric Type",
+          "value": "dobby"
+        },
+        {
+          "name": "Model Number",
+          "value": "S-XXL (Fabric is flexible)"
+        },
+        {
+          "name": "Pattern Type",
+          "value": "Floral"
+        }
+      ]
+    }
+  ],
+  "processing": 0,
+  "source_parent_category_id": "",
+  "source_product_sku": "",
+  "supplier_info": {}
+}
+]

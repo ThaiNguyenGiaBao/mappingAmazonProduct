@@ -41,7 +41,6 @@ async function getDb() {
 async function close() {
   await client.close();
   dbInstance = null;
-  console.log("🔒 MongoDB connection closed");
 }
 
 module.exports = {

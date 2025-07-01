@@ -1,3 +1,283 @@
-{"_id":"650911fe7bc2de78b70f1f09","name":"PURC Hair Shampoo in Handmade & Gentle Vegan Soap Bar Smoothing Shiny Hair Care Condition","product_link":"https://www.aliexpress.com/item/4001351893012.html","variants":[]}
-{"_id":"650911fe7bc2de78b70f1f09","name":"PURC Hair Shampoo in Handmade & Gentle Vegan Soap Bar Smoothing Shiny Hair Care Condition","product_link":"https://www.aliexpress.com/item/4001351893012.html","variants":[]}
-{"_id":"650911fe7bc2de78b70f1f09","name":"PURC Hair Shampoo in Handmade & Gentle Vegan Soap Bar Smoothing Shiny Hair Care Condition","product_link":"https://www.aliexpress.com/item/4001351893012.html","variants":[]}
+{
+  "_id": "650911fe7bc2de78b70f1f09",
+  "name": "PURC Hair Shampoo in Handmade & Gentle Vegan Soap Bar Smoothing Shiny Hair Care Condition",
+  "product_link": "https://www.aliexpress.com/item/4001351893012.html",
+  "variants": [
+    {
+      "variant_property_value": "Color Protecting",
+      "variant_image": "https://ae01.alicdn.com/kf/Sbb8017b86a14419c98573a1508e2b0eeK.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0B4SKH8ZM",
+          "score": "0.65568936",
+          "title": "Gegong Shampoo Bar, Rice Water Aloe Vera Extract, Natural Ingredients, Hair Loss Treatment, Oil Control, Hair Growth, 4.2oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/61jfdwZZhbL.jpg",
+          "averageOverallRating": 4,
+          "totalReviewCount": "61"
+        },
+        {
+          "asin": "B0DNQTQPSJ",
+          "score": "0.655423",
+          "title": "DEGO HERBAL Rice Shampoo Bar Body Wash Bar for Neutral and Dry Hair 1.92 Oz Softens Hair and Skins, Protect for Damages",
+          "imageUrl": "https://m.media-amazon.com/images/I/71urEUCwwgL.jpg",
+          "averageOverallRating": 4.6,
+          "totalReviewCount": "35"
+        },
+        {
+          "asin": "B08PJ3RX5P",
+          "score": "0.6505351",
+          "title": "Jack59 Processed Hair Shampoo Bar with Agave Nectar and Coconut Milk - Vegan, Organic, Color Safe, Blonde Bombshell, 3 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/51MrrNsZ8ML.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "429"
+        },
+        {
+          "asin": "B0DSJWSGNK",
+          "score": "0.65033406",
+          "title": "Pure Rosemary Natural Shampoo Bar - Volumizing, Strengthening, Thickening Solid Hair Growth Soap, Made in USA with Rice Protein, Caffeine, Castor Oil, and Ginger, Organic for Women, Men",
+          "imageUrl": "https://m.media-amazon.com/images/I/61scVg0EIqL.jpg",
+          "averageOverallRating": 4.5,
+          "totalReviewCount": "33"
+        },
+        {
+          "asin": "B08X4BKCP9",
+          "score": "0.64928657",
+          "title": "mimosu Hair Growth Shampoo Bar, Fermented Rice Water 2-in-1 Shampoo & Conditioner, 5oz, Unscented, pH Balanced, Solid Bar for Oily Hair, Korean Hair Care",
+          "imageUrl": "https://m.media-amazon.com/images/I/81kncD4QyqL.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "4,541"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "Anti-off",
+      "variant_image": "https://ae01.alicdn.com/kf/S9af8277ab95f49e7adaadf87c75de17bZ.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0DSJWSGNK",
+          "score": "0.6693332",
+          "title": "Pure Rosemary Natural Shampoo Bar - Volumizing, Strengthening, Thickening Solid Hair Growth Soap, Made in USA with Rice Protein, Caffeine, Castor Oil, and Ginger, Organic for Women, Men",
+          "imageUrl": "https://m.media-amazon.com/images/I/61scVg0EIqL.jpg",
+          "averageOverallRating": 4.5,
+          "totalReviewCount": "33"
+        },
+        {
+          "asin": "B0C3CHZQZP",
+          "score": "0.6558593",
+          "title": "Arista Normal Hair Shampoo Bar | Sulfate-Free, Shikakai & Argan Oil Solid Shampoo Puck | Eco-Friendly, Vegan",
+          "imageUrl": "https://m.media-amazon.com/images/I/61ftfKks64L.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "1,688"
+        },
+        {
+          "asin": "B0CLS7RMF8",
+          "score": "0.6540037",
+          "title": "Rice Water Shampoo Bar for Hair Growth, 3.2oz Vegan & All Natural Hair Growth Shampoo Bar, For Hair Growth and Moisturizing,for Dry Damaged Hair,pH Balanced, For all hair types, Easy for Travel",
+          "imageUrl": "https://m.media-amazon.com/images/I/714csJOcbeL.jpg",
+          "averageOverallRating": 5,
+          "totalReviewCount": "2"
+        },
+        {
+          "asin": "B09MWMTP6L",
+          "score": "0.65228254",
+          "title": "NOLE CARE Sustainable Bar Shampoo with Coconut & Batana Oil, for Frizz (3 oz) - PH Balanced, Rice Protein Based, Frizz Control, Sulfate-Free, Plastic-Free",
+          "imageUrl": "https://m.media-amazon.com/images/I/71a5AGiHxHL.jpg",
+          "averageOverallRating": 4.4,
+          "totalReviewCount": "468"
+        },
+        {
+          "asin": "B0CQPG5XN9",
+          "score": "0.65158683",
+          "title": "Rice Water Shampoo Bar - Hair Strengthening and Repair, Vegan Formula with Natural Ingredients - Sulfate-Free, Paraben-Free, Anti-Hair Loss, Oily, Dry Hair, Safe for Sensitive Scalp, 3.2 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/513RbbFLzSL.jpg",
+          "averageOverallRating": 4.7,
+          "totalReviewCount": "3"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "Damage Repaired",
+      "variant_image": "https://ae01.alicdn.com/kf/S5a6b5208ef6e47788a0cbd942fdc2bcdL.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0DH5X9BLS",
+          "score": "0.67977095",
+          "title": "BAMBOEARTH Solid Rice Protein Water Shampoo Bar With Conditioner Effect Hair Soap – Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Packaging (Lemon)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61nbz0ZZ1EL.jpg",
+          "averageOverallRating": 4.7,
+          "totalReviewCount": "7"
+        },
+        {
+          "asin": "B0BL86CYD4",
+          "score": "0.6592542",
+          "title": "SoapFactory Organic Solid Shampoo Bar with Lemongrass, Adds Volume, Hair Soap for Men and Women, 100% Natural, Vegan, Handmade, Plastic Free, 3 Ounce",
+          "imageUrl": "https://m.media-amazon.com/images/I/71-0unP7UlL.jpg",
+          "averageOverallRating": 4,
+          "totalReviewCount": "69"
+        },
+        {
+          "asin": "B07W8X232M",
+          "score": "0.65578294",
+          "title": "BAMBOEARTH Solid Shampoo Bar And Conditioner Effect Hair Soap – 100% Organic Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Biodegradable Packaging (Lemon)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61b9-vSQXRL.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,134"
+        },
+        {
+          "asin": "B07W8XMF38",
+          "score": "0.6481674",
+          "title": "BAMBOEARTH Solid Shampoo Bar And Conditioner Effect Hair Soap – 100% Organic Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Biodegradable Packaging (Honey)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61yrarGXjiL.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,134"
+        },
+        {
+          "asin": "B08RXD6WNT",
+          "score": "0.6455427",
+          "title": "BAMBOEARTH Solid Shampoo Bar And Conditioner Effect Hair Soap – 100% Organic Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Biodegradable Packaging (Jasmine)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61CjenI5uSL.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,134"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "Smoothing & Straightening",
+      "variant_image": "https://ae01.alicdn.com/kf/Se9a62c7a45704712ad053301040d7f44Q.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B08RXCJB8S",
+          "score": "0.6781318",
+          "title": "BAMBOEARTH Solid Shampoo Bar And Conditioner Effect Hair Soap – 100% Organic Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Biodegradable Packaging (Rose)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61739CJAb5L.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,134"
+        },
+        {
+          "asin": "B0DH64KN7F",
+          "score": "0.6676076",
+          "title": "BAMBOEARTH Solid Rice Protein Water Shampoo Bar With Conditioner Effect Hair Soap – Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Packaging (Rose)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61X1Ro0r4-L.jpg",
+          "averageOverallRating": 4.7,
+          "totalReviewCount": "7"
+        },
+        {
+          "asin": "B0DSLVJN1K",
+          "score": "0.66325575",
+          "title": "Rose Shampoo Bar – Gentle & Hydrating with Avocado, Cocoa & Shea Butters, Olive & Jojoba Oils, for All Hair Types",
+          "imageUrl": "https://m.media-amazon.com/images/I/71JtnUhAy-L.jpg",
+          "averageOverallRating": 4,
+          "totalReviewCount": "37"
+        },
+        {
+          "asin": "B0DS41DKHY",
+          "score": "0.65696764",
+          "title": "DR.EMMET Rose Shampoo Bar for Oil Hair Control, Solid Anti Dandruff Rice Water Shampoo Bar for Women, Moisturizing, Hydrating, Volumizing, Deep Scalp Care",
+          "imageUrl": "https://m.media-amazon.com/images/I/51+H5hO6keL.jpg",
+          "averageOverallRating": "N/A",
+          "totalReviewCount": " N/A"
+        },
+        {
+          "asin": "B08P3Z745C",
+          "score": "0.65583855",
+          "title": "Jack59 Bar for Dry or Processed Hair, with Pink Grapefruit and Lime Essential Oils, pH Balanced Vegan Energizing Solid Shampoo, 3 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/61iD0XXzzvL.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "429"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "Moisturizing",
+      "variant_image": "https://ae01.alicdn.com/kf/S84cef4f987fd45abb9dffd2d4c9d0a8e9.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B08P65N31L",
+          "score": "0.6576339",
+          "title": "Jack59 Natural Shampoo Bar with Bamboo Extract - pH Balanced, Vegan, Cruelty-Free for Normal, Weak or Treated Hair, Color Safe, Island Tropics Scent, 3 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/61P7CHLIN9L.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "429"
+        },
+        {
+          "asin": "B0BSTGPM6B",
+          "score": "0.6518976",
+          "title": "BUFFALO GAL MSM Shampoo Bar - Non-Soap, Natural, pH Balanced, Non-Stripping, Suitable for All Hair Types, Floral Scent, 4 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/612bxbTDO+L.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "67"
+        },
+        {
+          "asin": "B0CB919KY6",
+          "score": "0.6513735",
+          "title": "Honeybee Gardens Shampoo Bar, Sunny Citrus, Eco-Friendly, Sustainable, For All Hair Types, 2.3 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/81e2Cc3v70L.jpg",
+          "averageOverallRating": 4.4,
+          "totalReviewCount": "36"
+        },
+        {
+          "asin": "B0DNQR9X3V",
+          "score": "0.64076585",
+          "title": "DEGO HERBAL Ginger Shampoo Bar Body Wash Bar for Thin Hair 1.92 Oz Balance Moisture, Nourish Skin",
+          "imageUrl": "https://m.media-amazon.com/images/I/71AFedbnfYL.jpg",
+          "averageOverallRating": 4.7,
+          "totalReviewCount": "30"
+        },
+        {
+          "asin": "B09K4RG9V4",
+          "score": "0.63980156",
+          "title": "The Earthling Co. Shampoo Bar - Promote Hair Growth, Strengthen & Volumize All Hair Types - Paraben & Sulfate Free formula with Natural, Vegan Ingredients (Vanilla Coconut, 3 oz)",
+          "imageUrl": "https://m.media-amazon.com/images/I/61lQt6BXs8L.jpg",
+          "averageOverallRating": 4.5,
+          "totalReviewCount": "7,469"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "Nourishing",
+      "variant_image": "https://ae01.alicdn.com/kf/S380461d3682d4022917f12bd36f3492dv.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0DH5PS26N",
+          "score": "0.67669",
+          "title": "BAMBOEARTH Solid Rice Protein Water Shampoo Bar With Conditioner Effect Hair Soap – Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Packaging (Lavender)",
+          "imageUrl": "https://m.media-amazon.com/images/I/714P6wzzcsL.jpg",
+          "averageOverallRating": 4.7,
+          "totalReviewCount": "7"
+        },
+        {
+          "asin": "B0CVFC666P",
+          "score": "0.66650313",
+          "title": "PureNaturis Argan Oil Rice Water Shampoo Bar for Hair Growth, 2 in 1 Fermented Rice Water Shampoo and Conditioner Bar for All Hair Types - Growth, Anti Hair Loss - Solid Rice Bar Soap for Hair Growth",
+          "imageUrl": "https://m.media-amazon.com/images/I/61hdFsF431L.jpg",
+          "averageOverallRating": 3.7,
+          "totalReviewCount": "47"
+        },
+        {
+          "asin": "B0CPKXWVTK",
+          "score": "0.6590677",
+          "title": "Biotin-Infused Purple Shampoo Bar for Blonde Hair - Natural Toning, Brightening and Strengthening Shampoo Blonde, Lightened & Gray Hair & Solid Hair Care for Silky, Radiant Locks, 3.2 oz",
+          "imageUrl": "https://m.media-amazon.com/images/I/51MW1e+BbLL.jpg",
+          "averageOverallRating": 3.6,
+          "totalReviewCount": "8"
+        },
+        {
+          "asin": "B09687BWG6",
+          "score": "0.65864325",
+          "title": "Miztag Home & Health Shampoo Bar - Solid Natural Soap for All Hair Types - Zero Waste Packaging - Vegan Travel Essential",
+          "imageUrl": "https://m.media-amazon.com/images/I/61oJMzMQb1L.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "133"
+        },
+        {
+          "asin": "B07W8VCLN6",
+          "score": "0.65590644",
+          "title": "BAMBOEARTH Solid Shampoo Bar And Conditioner Effect Hair Soap – 100% Organic Shampoo Bars For Hair With All Natural Plant Based Essential Oils And Zero Waste Biodegradable Packaging (Lavender)",
+          "imageUrl": "https://m.media-amazon.com/images/I/71UZBpkuu8L.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,134"
+        }
+      ]
+    }
+  ]
+}

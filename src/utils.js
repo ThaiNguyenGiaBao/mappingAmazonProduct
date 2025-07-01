@@ -5,8 +5,18 @@ const path = require("path");
 
 const imageUrl = "https://ae01.alicdn.com/kf/UTB80pI5J5aMiuJk43PTq6ySmXXaS.jpg";
 
+let browserPromise = null;
 
 
+
+
+
+async function getBrowser() {
+  if (!browserPromise) {
+    browserPromise = puppeteer.launch({ headless: true });
+  }
+  return browserPromise;
+}
 
 async function getAmazonProductsFromImageUrl(imageUrl) {
   const amazonProductList = [];
@@ -31,21 +41,9 @@ async function getAmazonProductsFromImageUrl(imageUrl) {
       });
   });
 
+  const browser = await getBrowser();
   // 2. Launch browser
-  const browser = await puppeteer.launch();
   const page = await browser.newPage();
-
-  // page.on("request", (request) => {
-  //   if (["xhr", "fetch"].includes(request.resourceType())) {
-  //     console.log(
-  //       `→ REQUEST [${request
-  //         .resourceType()
-  //         .toUpperCase()}] ${request.method()} ${request.url()}`
-  //     );
-  //     const postData = request.postData();
-  //     if (postData) console.log(`  • payload: ${postData}`);
-  //   }
-  // });
 
   page.on("response", async (response) => {
     if (!response.url().includes("https://www.amazon.com/stylesnap/upload"))
@@ -106,16 +104,13 @@ async function getAmazonProductsFromImageUrl(imageUrl) {
     console.error("Error deleting image:", err.message);
   }
 
-  // 5. Close browser
-  await browser.close();
-
   if (amazonProductList.length === 0) {
     console.log("No products found.");
   } else {
     console.log("Found products:", amazonProductList.length);
   }
-
-  return amazonProductList.sort((a, b) => b.score - a.score).slice(0, 5); // Keep top 10 products
+  await page.close();
+  return amazonProductList.sort((a, b) => b.score - a.score).slice(0, 5);
 }
 
 //getAmazonProductsFromImageUrl(imageUrl);

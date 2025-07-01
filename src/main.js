@@ -75,8 +75,8 @@ async function main() {
   const aeDocs = await db
     .collection("ae_dropship_products")
     .find({})
-    .skip(70)
-    .limit(10)
+    .skip(80)
+    .limit(20)
     .toArray();
 
   //   const filePath = path.resolve(__dirname, "data.json");

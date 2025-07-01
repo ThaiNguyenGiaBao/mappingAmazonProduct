@@ -1,3 +1,67 @@
-{"_id":"650911ff7bc2de78b70f1f37","name":"Oversized Women's Floral Sundress 2023 ZANZEA Printed Maxi Dress Elegant Autumn Casual Long Sleeve Vestidos Female Cotton Robe","product_link":"https://www.aliexpress.com/item/4001347580994.html","variants":[]}
-{"_id":"650911ff7bc2de78b70f1f37","name":"Oversized Women's Floral Sundress 2023 ZANZEA Printed Maxi Dress Elegant Autumn Casual Long Sleeve Vestidos Female Cotton Robe","product_link":"https://www.aliexpress.com/item/4001347580994.html","variants":[]}
-{"_id":"650911ff7bc2de78b70f1f37","name":"Oversized Women's Floral Sundress 2023 ZANZEA Printed Maxi Dress Elegant Autumn Casual Long Sleeve Vestidos Female Cotton Robe","product_link":"https://www.aliexpress.com/item/4001347580994.html","variants":[]}
+{
+  "_id": "650911ff7bc2de78b70f1f37",
+  "name": "Oversized Women's Floral Sundress 2023 ZANZEA Printed Maxi Dress Elegant Autumn Casual Long Sleeve Vestidos Female Cotton Robe",
+  "product_link": "https://www.aliexpress.com/item/4001347580994.html",
+  "variants": [
+    {
+      "variant_property_value": "Brown",
+      "variant_image": "https://ae01.alicdn.com/kf/H7a338ee3d0fd42c1bebbaa48808f9044r.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0CDKM14N6",
+          "score": "0.6196482",
+          "title": "ellazhu Women's Summer Crewneck Short Sleeve Maxi Length Floral Printed Patern Dress GA2688",
+          "imageUrl": "https://m.media-amazon.com/images/I/91aHkmM3jUL.jpg",
+          "averageOverallRating": 5,
+          "totalReviewCount": "1"
+        },
+        {
+          "asin": "B09VRWVWG2",
+          "score": "0.6064243",
+          "title": "Sakkas Tacy Women's Casual Boho Summer Maxi Dress Caftan Kaftan Cover-up LougeWear",
+          "imageUrl": "https://m.media-amazon.com/images/I/81A4uGo8+yL.jpg",
+          "averageOverallRating": 4.3,
+          "totalReviewCount": "353"
+        },
+        {
+          "asin": "B0FDKXZG6F",
+          "score": "0.5837414",
+          "title": "Marusthali handmade indian dress silk vintage dresses gypsy beach maxi dresses hippie dress ethnic sleepwear maxi partywear silk long dress gypsy long skirt (1 Piece)",
+          "imageUrl": "https://m.media-amazon.com/images/I/719xh1Z-zPL.jpg",
+          "averageOverallRating": "N/A",
+          "totalReviewCount": " N/A"
+        }
+      ]
+    },
+    {
+      "variant_property_value": "SKY BLUE",
+      "variant_image": "https://ae01.alicdn.com/kf/H740cb63847a6456e9bd4f127437b3d9c7.jpg",
+      "amazon_variant": [
+        {
+          "asin": "B0BG6WMD45",
+          "score": "0.66427785",
+          "title": "IDEALSANXUN Womens Elastic Waist Aline Cotton Lined Retro Maxi Hem Pleated Long Skirts",
+          "imageUrl": "https://m.media-amazon.com/images/I/61mrv9wuVFL.jpg",
+          "averageOverallRating": 4.4,
+          "totalReviewCount": "113"
+        },
+        {
+          "asin": "B088FD89MM",
+          "score": "0.6573733",
+          "title": "FTCayanz Women's Casual Midi Dresses Short Sleeve Loose Print T Shirt Dress with Pockets",
+          "imageUrl": "https://m.media-amazon.com/images/I/61mG9T7i4qL.jpg",
+          "averageOverallRating": 4.2,
+          "totalReviewCount": "2,097"
+        },
+        {
+          "asin": "B0DTH5W39Y",
+          "score": "0.644662",
+          "title": "Women Boho Floral Print Cotton Long Maxi Skirt with Pockets and Adjustable Waistband Beach Casual Summer Dress",
+          "imageUrl": "https://m.media-amazon.com/images/I/81L7JwXBhuL.jpg",
+          "averageOverallRating": 5,
+          "totalReviewCount": "2"
+        }
+      ]
+    }
+  ]
+}

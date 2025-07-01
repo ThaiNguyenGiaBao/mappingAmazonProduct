@@ -3,8 +3,8 @@ const { MongoClient } = require("mongodb");
 
 // 1) Your connection URI
 const uri =
-  "mongodb://ds-product-source:JNWZ5r87ZNbXWVw@192.168.91.29:27021/DropshipProducts?authSource=admin&readPreference=primary&directConnection=true&ssl=false";
-
+  //"mongodb://ds-product-source:JNWZ5r87ZNbXWVw@192.168.91.29:27021/DropshipProducts?authSource=admin&readPreference=primary&directConnection=true&ssl=false";
+  "mongodb+srv://thainguyengiabao27092004:awMvZMpA0Z9B4cls@cluster0.04q1y2b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // 2) Create the client
 const client = new MongoClient(uri, {
   useNewUrlParser: true,

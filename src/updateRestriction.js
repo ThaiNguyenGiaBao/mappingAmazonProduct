@@ -48,7 +48,8 @@ async function _getListingRestrictions(
 
   // NOTE: you must fill in these with your SigV4 + LWA
   const headers = {
-    "x-amz-access-token": process.env.LWA_ACCESS_TOKEN,
+    "x-amz-access-token":
+      "Atza|IwEBIHpHJKC6Dt5w1b8LOcKnDeTMCz-d22i4-6J_o6GmY50daySjlf50zUtMgdRzTkKlkT2ZNnIdExoWz7l3VwFk5vfqQlfQlDbTo3D1rdDlPzVOjx1jkF4UmOgWINB6nXFjYruQhu4It-AmO5pXmyV87Ln-CSG6R1M9oRKQtmG-QAHAQ3bQhlw0OsGhLWZdPFhMMGmi5IskXq3IufZypJGaOm8NocoGXHk9DUy1xD8aCNbPYrxoEn8CjWh1dLVDZY2Z1NSoT_vdVrZqPZ3YKatICTI_dhkBJsfFSAd3T2b3vckLUrinvZUaSNOvpI7w-WlU-a38TQv3IwV1ofE1KyPrOwux",
 
     "Content-Type": "application/json",
   };
@@ -68,6 +69,10 @@ async function updateListingRestrictions(variant, doc, col) {
     if (!av.asin) {
       console.log(`No ASIN for variant ${variant.variant_property_value}`);
       continue;
+    }
+    if (av.restriction) {
+      console.log(`Already has restriction for ${av.asin}: ${av.restriction}`);
+      continue; // already has restriction
     }
     console.log(`→ fetching restrictions for ${av.asin}`);
     const { data, asin } = await getListingRestrictions(av.asin);
@@ -95,20 +100,28 @@ async function updateListingRestrictions(variant, doc, col) {
   try {
     const db = await getDb();
     const col = db.collection("amazon_product_mapping");
-    const docs = await col.find({}).skip(0).limit(5).toArray();
+    const docs = await col.find({}).skip(0).limit(100).toArray();
     console.log(`Processing ${docs.length} docs…`);
 
     for (const doc of docs) {
-      const tasks = doc.variants.map((variant) => {
+      // const tasks = doc.variants.map(async (variant) => {
+      //   if (!variant.amazon_variant?.length) {
+      //     console.log(`No variants for ${variant.variant_property_value}`);
+      //     //return Promise.resolve();
+      //     return;
+      //   }
+      //   await updateListingRestrictions(variant, doc, col);
+      // });
+      // // await Promise.all(tasks).catch((err) => {
+      // //   console.log(`Error processing doc ${doc._id}:`, err.message);
+      // // });
+      for (const variant of doc.variants) {
         if (!variant.amazon_variant?.length) {
           console.log(`No variants for ${variant.variant_property_value}`);
-          return Promise.resolve();
+          continue;
         }
-        return updateListingRestrictions(variant, doc, col);
-      });
-      await Promise.all(tasks).catch((err) => {
-        console.log(`Error processing doc ${doc._id}:`, err.message);
-      });
+        await updateListingRestrictions(variant, doc, col);
+      }
     }
 
     await close();
@@ -117,3 +130,9 @@ async function updateListingRestrictions(variant, doc, col) {
     console.log("Fatal error:", err.response?.status, err.message);
   }
 })();
+
+module.exports = {
+  getListingRestrictions,
+  updateListingRestrictions,
+  _getListingRestrictions,
+};

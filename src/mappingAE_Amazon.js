@@ -3,6 +3,7 @@ const { getAmazonProductsFromImageUrl } = require("./utils");
 const fs = require("fs").promises;
 const path = require("path");
 
+
 async function insertMappingAmazonProducts(doc) {
   const safeName = doc.name.replace(/[^a-zA-Z0-9_-]/g, "");
   const outputPath = path.resolve(__dirname, "mapped", safeName + ".json");
@@ -75,8 +76,8 @@ async function main() {
   const aeDocs = await db
     .collection("ae_dropship_products")
     .find({})
-    .skip(80)
-    .limit(20)
+    .skip(0)
+    .limit(100)
     .toArray();
 
   //   const filePath = path.resolve(__dirname, "data.json");

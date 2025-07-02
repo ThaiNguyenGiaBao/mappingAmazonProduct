@@ -7,13 +7,13 @@ const imageUrl = "https://ae01.alicdn.com/kf/UTB80pI5J5aMiuJk43PTq6ySmXXaS.jpg";
 
 let browserPromise = null;
 
-
-
-
-
 async function getBrowser() {
   if (!browserPromise) {
-    browserPromise = puppeteer.launch({ headless: true });
+    browserPromise = puppeteer.launch({
+      headless: true,
+      protocolTimeout: 120_000,
+      timeout: 120_000,
+    });
   }
   return browserPromise;
 }
@@ -44,6 +44,8 @@ async function getAmazonProductsFromImageUrl(imageUrl) {
   const browser = await getBrowser();
   // 2. Launch browser
   const page = await browser.newPage();
+  page.setDefaultNavigationTimeout(120_000);
+  page.setDefaultTimeout(120_000);
 
   page.on("response", async (response) => {
     if (!response.url().includes("https://www.amazon.com/stylesnap/upload"))
@@ -110,7 +112,7 @@ async function getAmazonProductsFromImageUrl(imageUrl) {
     console.log("Found products:", amazonProductList.length);
   }
   await page.close();
-  return amazonProductList.sort((a, b) => b.score - a.score).slice(0, 5);
+  return amazonProductList.sort((a, b) => b.score - a.score);
 }
 
 //getAmazonProductsFromImageUrl(imageUrl);

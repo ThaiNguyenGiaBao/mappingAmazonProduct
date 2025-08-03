@@ -3,11 +3,14 @@ const { insertNewCategory } = require("./category");
 const { extractListCategory, chunkArray } = require("./utils");
 const { transformVariantRecord } = require("./variantAdater");
 
-async function searchCatalogItemsByAsinList(fullAsinList, productOptions) {
+const accessToken =
+  "Atza|IwEBIB9Y0yFygW2ABC7-dZ_kSI28i5WMt1NpuF-1AoVVziOgnTfHEVzCU1XwgM43cDHmg47QdDBm-0ohQjdYaruI6sT3BeRUMbfm_ARE5tezCu8vgtQY4OX8BLoAeTsNvzCcOixvredtavKm66exyzKGsbpSy7dhqutJYGiZmunfvW9nwowAzoUel-OTSz7_vKT7KjkGJCRgmfOECSs2zESIuro0kWJC7Ouxao8qQIyvaWNo53TCvptBlCRoIOQ79FdJDu91HnFr00nNzXSvbEEgxExm6_7mz-UYY6w06CC56F1vIDvcxxgO5ucfaFu7AcX9EA_L_YDxkNn05n60F6Dy1NAa";
+
+async function searchCatalogItemsByAsinList(fullAsinList) {
   console.log("Searching catalog items by ASIN list:", fullAsinList.length);
   if (fullAsinList.length === 0) {
     console.log("No ASINs provided, skipping search.");
-    return { variants: [], notNullDescription: null };
+    return [];
   }
 
   const baseUrl = "https://sellingpartnerapi-na.amazon.com";
@@ -15,8 +18,6 @@ async function searchCatalogItemsByAsinList(fullAsinList, productOptions) {
 
   const allItems = [];
   const batches = chunkArray(fullAsinList, 20);
-
-  let notNullDescription = null;
 
   for (const batch of batches) {
     console.log(`🔍 Fetching batch: ${batch.length}`);
@@ -53,19 +54,7 @@ async function searchCatalogItemsByAsinList(fullAsinList, productOptions) {
     }
   }
 
-  const variants = allItems.map((item) => {
-    const { variant_data, variantDescription } = transformVariantRecord(
-      item,
-      productOptions
-    );
-
-    if (!notNullDescription) {
-      notNullDescription = variantDescription;
-    }
-    return variant_data;
-  });
-  console.log(`✨ Total variants fetched: ${variants.length}`);
-  return { variants, notNullDescription };
+  return allItems;
 }
 
 async function transformProductRecord(rec1) {
@@ -152,16 +141,28 @@ async function transformProductRecord(rec1) {
       "</ul>";
   }
 
-  const { variants, notNullDescription } = await searchCatalogItemsByAsinList(
-    output.full_asin,
-    output.options || []
-  );
+  const allItems = await searchCatalogItemsByAsinList(output.full_asin);
+  const variants = allItems.map((item) => {
+    return transformVariantRecord(item, output.options);
+  });
+  console.log(`✨ Total variants fetched: ${variants.length}`);
 
   if (!output.description) {
-    output.description = notNullDescription;
-    console.log(
-      `No description found for ASIN ${rec1.asin}, using variant description `
-    );
+    console.log("=> No description found, using attributes");
+    allItems.forEach((item) => {
+      if (item.attributes?.product_description) {
+        output.description =
+          "<br>" + item.attributes.product_description[0].value + "</br>";
+      }
+      if (item.attributes?.bullet_point) {
+        output.description =
+          "<ul>" +
+          (item.attributes.bullet_point
+            ?.map((bp) => `<li>${bp.value}</li>`)
+            .join("") || "") +
+          "</ul>";
+      }
+    });
   }
 
   output.variants = variants;

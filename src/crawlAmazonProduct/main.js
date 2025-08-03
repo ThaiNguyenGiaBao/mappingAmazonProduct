@@ -2,13 +2,13 @@ const axios = require("axios");
 const dotenv = require("dotenv");
 
 const { insertNewCategory } = require("./category");
-const {transformProductRecord} = require("./productAdapter");
+const { transformProductRecord } = require("./productAdapter");
 
 const { getProductRepository } = require("./repo");
 let productRepository = null;
 
 const accessToken =
-  "Atza|IwEBIDACdMiCe0htlEBn5lHxaPQ5NtDC1VdQT17iksEelN76CQVBkA6xXxADJm_ZKPAuDpsFl-yjISgk1SrdzwAFg7LRWbwZuXxVz_kKxBE9M23UlXg9LaHA7qv6nKu8Sb7NrpZZ8ZZgqUBUwEoI-phResHy9bW-JqxCOpUGx5ckbnNIEuMIYI41pw3Y_5XVkNjNlN5RW3gM50DOryzXq0-o8SxkrWJjGkmw5DcO3lFVBPzqN3DtB4-o5miFNESahlK4Royrqma1nhy3uIVTUZvmtONPX1fjIGBgj7w8ZXbDSuveysFTcRx5N6hPgTmPhGcDIR3Hr88OtIZQ0jVgTIxlsri2";
+  "Atza|IwEBIB9Y0yFygW2ABC7-dZ_kSI28i5WMt1NpuF-1AoVVziOgnTfHEVzCU1XwgM43cDHmg47QdDBm-0ohQjdYaruI6sT3BeRUMbfm_ARE5tezCu8vgtQY4OX8BLoAeTsNvzCcOixvredtavKm66exyzKGsbpSy7dhqutJYGiZmunfvW9nwowAzoUel-OTSz7_vKT7KjkGJCRgmfOECSs2zESIuro0kWJC7Ouxao8qQIyvaWNo53TCvptBlCRoIOQ79FdJDu91HnFr00nNzXSvbEEgxExm6_7mz-UYY6w06CC56F1vIDvcxxgO5ucfaFu7AcX9EA_L_YDxkNn05n60F6Dy1NAa";
 
 const classification = {
   zopiClass: "Consumer Electronics",
@@ -16,8 +16,6 @@ const classification = {
   amazonClassId: "493964",
   maxPrice: 5200,
 };
-
-
 
 async function getCatalogItemByAsin(asin) {
   const baseUrl = "https://sellingpartnerapi-na.amazon.com";
@@ -42,8 +40,6 @@ async function getCatalogItemByAsin(asin) {
   });
   return data;
 }
-
-
 
 async function searchCatalogItemsByKeywordAndClassificationIds(
   keyword,
@@ -149,3 +145,5 @@ main()
   .catch((error) => {
     console.error("Error fetching catalog items:", error);
   });
+
+module.exports = { accessToken };

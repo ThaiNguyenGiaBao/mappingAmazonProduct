@@ -37,28 +37,12 @@ function transformVariantRecord(rec1, productOptions) {
     });
   });
 
-  let variantDescription = "";
-  if (attr.product_description) {
-    variantDescription = "<br>" + attr.product_description[0].value + "</br>";
-  }
-
-  if (attr.bullet_point) {
-    variantDescription +=
-      "<ul>" +
-      (attr.bullet_point?.map((bp) => `<li>${bp.value}</li>`).join("") || "") +
-      "</ul>";
-  }
-
   return {
-    variant_data: {
-      sku_id: rec1.asin,
-      price_usd: attr.list_price?.[0]?.value || null,
-      quantity: 15,
-      image: mainImage,
-      sku_property: skuProps,
-    },
-
-    variantDescription: variantDescription,
+    sku_id: rec1.asin,
+    price_usd: attr.list_price?.[0]?.value || null,
+    quantity: 15,
+    image: mainImage,
+    sku_property: skuProps,
   };
 }
 

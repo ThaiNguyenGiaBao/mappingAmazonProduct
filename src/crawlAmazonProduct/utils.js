@@ -21,6 +21,7 @@ function extractListCategory(classificationsInput) {
   return result;
 }
 
+
 module.exports = {
   chunkArray,
   extractListCategory,

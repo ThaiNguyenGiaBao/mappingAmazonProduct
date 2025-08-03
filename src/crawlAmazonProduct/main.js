@@ -2,7 +2,7 @@ const axios = require("axios");
 const dotenv = require("dotenv");
 
 const { insertNewCategory } = require("./category");
-const { transformProductRecord } = require("./productAdapter");
+const { ProductAdapter } = require("./productAdapter");
 
 const { getProductRepository } = require("./repo");
 let productRepository = null;
@@ -101,9 +101,11 @@ async function processProduct(amazonProduct) {
     if (parentAsin) {
       console.log("Found parent ASIN:", parentAsin);
       product = await getCatalogItemByAsin(parentAsin);
-      record = await transformProductRecord(product);
+      const productAdapter = new ProductAdapter(product);
+      record = await productAdapter.transform();
     } else {
-      record = await transformProductRecord(amazonProduct);
+      const productAdapter = new ProductAdapter(amazonProduct);
+      record = await productAdapter.transform();
     }
 
     if (record.price_range[1] > classification.maxPrice) {
